@@ -1,0 +1,3523 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "name": "Adsorption of Heavy Metals Using Biochar and Hydrochar - Demonstration Evidence Review",
+    "created_at": "2026-09-23T19:48:16.634995+00:00",
+    "updated_at": "2026-09-23T19:48:16.789098+00:00",
+    "demonstration": true,
+    "notes": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+  },
+  "protocol": {
+    "title": "Adsorption of Heavy Metals Using Biochar and Hydrochar - Demonstration Evidence Review",
+    "review_type": "systematic",
+    "research_question": "In fictional aqueous systems, how are demonstration biochar and hydrochar materials characterized and evaluated for heavy-metal adsorption?",
+    "objective": "Demonstrate a transparent evidence-review workflow using wholly fictional records. No scientific inference should be drawn.",
+    "scientific_domain": "Environmental chemistry and adsorption - demonstration only",
+    "question_framework": "chemistry_materials",
+    "population_or_material": "Fictional biochar and hydrochar adsorbents",
+    "intervention_or_exposure": "Fictional aqueous heavy-metal contamination",
+    "comparator": "Fictional alternative sorbents or preparation conditions",
+    "outcome": "Reported demonstration capacity, removal efficiency, characterization, and regeneration",
+    "date_start": 2018,
+    "date_end": 2026,
+    "language_restrictions": [
+      "English"
+    ],
+    "study_type_restrictions": [
+      "Primary experimental demonstration studies"
+    ],
+    "inclusion_criteria": [
+      "Clearly labelled synthetic primary study",
+      "Aqueous metal adsorption outcome",
+      "Biochar or hydrochar material"
+    ],
+    "exclusion_criteria": [
+      "Wrong fictional material system",
+      "No adsorption outcome",
+      "Review or commentary format"
+    ],
+    "databases_planned": [
+      "DemoIndex",
+      "Other/manual"
+    ],
+    "notes": ""
+  },
+  "searches": [
+    {
+      "id": "a9918768-d575-4799-b3fe-e781b8b71388",
+      "database": "DemoIndex",
+      "exact_query": "(\"DEMONSTRATION biochar\" OR \"DEMONSTRATION hydrochar\") AND (adsorption OR removal) AND (lead OR cadmium OR copper)",
+      "search_date": "2026-09-20",
+      "records_retrieved": 34,
+      "notes": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+    },
+    {
+      "id": "e0f6cf93-a768-4772-a1a3-583834e050cf",
+      "database": "Other/manual",
+      "exact_query": "Fictional portfolio seed records supplied with SciReview Chem",
+      "search_date": "2026-09-20",
+      "records_retrieved": 6,
+      "notes": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+    }
+  ],
+  "records": [
+    {
+      "id": "b4bd85b5-f9f9-4ed0-844c-c4f49304a069",
+      "title": "DEMONSTRATION Study 001: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-001, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2019,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-001",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "0683ebe2-8b79-4b6c-8ff1-7a98d146a07e",
+      "title": "DEMONSTRATION Study 002: Rice Husk Biochar for Fictional Cadmium Adsorption",
+      "authors": [
+        "DemoAuthor-002, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2020,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates rice husk biochar for a fictional cadmium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Rice Husk Biochar",
+        "Cadmium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-002",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "2d19c914-34f8-4a10-b8ab-0ac2a069854b",
+      "title": "DEMONSTRATION Study 003: Algae Hydrochar for Fictional Copper Adsorption",
+      "authors": [
+        "DemoAuthor-003, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2021,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates algae hydrochar for a fictional copper adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Algae Hydrochar",
+        "Copper",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-003",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "ce5ccb04-30c6-49c1-9892-c23b34ae8aac",
+      "title": "DEMONSTRATION Study 004: Coconut Biochar for Fictional Nickel Adsorption",
+      "authors": [
+        "DemoAuthor-004, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2022,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates coconut biochar for a fictional nickel adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Coconut Biochar",
+        "Nickel",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-004",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "cf26ddba-fc1f-438a-8137-4f86278f9cfa",
+      "title": "DEMONSTRATION Study 005: Cellulose Hydrochar for Fictional Chromium Adsorption",
+      "authors": [
+        "DemoAuthor-005, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2023,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates cellulose hydrochar for a fictional chromium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Cellulose Hydrochar",
+        "Chromium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-005",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "38ee90b9-06e7-4195-b848-591fc54b53ab",
+      "title": "DEMONSTRATION Study 006: Bamboo Biochar for Fictional Zinc Adsorption",
+      "authors": [
+        "DemoAuthor-006, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2024,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates bamboo biochar for a fictional zinc adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Bamboo Biochar",
+        "Zinc",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-006",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "4b559216-8a63-43d1-904e-9edf1c1e0b1b",
+      "title": "DEMONSTRATION Study 007: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-007, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2025,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-007",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "5672fdf5-6bb1-492c-9e31-34aad3ab495e",
+      "title": "DEMONSTRATION Study 008: Rice Husk Biochar for Fictional Cadmium Adsorption",
+      "authors": [
+        "DemoAuthor-008, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2018,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates rice husk biochar for a fictional cadmium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Rice Husk Biochar",
+        "Cadmium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-008",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "8c0a5417-9bd7-4d2c-bc2f-1231e8edb6ed",
+      "title": "DEMONSTRATION Study 009: Algae Hydrochar for Fictional Copper Adsorption",
+      "authors": [
+        "DemoAuthor-009, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2019,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates algae hydrochar for a fictional copper adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Algae Hydrochar",
+        "Copper",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-009",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "c62087d0-4279-4b85-a895-7fe91311aad7",
+      "title": "DEMONSTRATION Study 010: Coconut Biochar for Fictional Nickel Adsorption",
+      "authors": [
+        "DemoAuthor-010, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2020,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates coconut biochar for a fictional nickel adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Coconut Biochar",
+        "Nickel",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-010",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "f0536732-980d-47a6-8568-8f615d02b54b",
+      "title": "DEMONSTRATION Study 011: Cellulose Hydrochar for Fictional Chromium Adsorption",
+      "authors": [
+        "DemoAuthor-011, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2021,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates cellulose hydrochar for a fictional chromium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Cellulose Hydrochar",
+        "Chromium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-011",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "fb964327-4ae8-4b83-929a-dcd8685f9847",
+      "title": "DEMONSTRATION Study 012: Bamboo Biochar for Fictional Zinc Adsorption",
+      "authors": [
+        "DemoAuthor-012, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2022,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates bamboo biochar for a fictional zinc adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Bamboo Biochar",
+        "Zinc",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-012",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "1e31f052-d4a0-4890-abf3-118dfcf5c97d",
+      "title": "DEMONSTRATION Study 013: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-013, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2023,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-013",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "a5abda05-ec1b-4f0d-9bd5-4135dae367ba",
+      "title": "DEMONSTRATION Study 014: Rice Husk Biochar for Fictional Cadmium Adsorption",
+      "authors": [
+        "DemoAuthor-014, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2024,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates rice husk biochar for a fictional cadmium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Rice Husk Biochar",
+        "Cadmium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-014",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "b6d8ad1f-5877-4b78-91e5-1a9dc36bef83",
+      "title": "DEMONSTRATION Study 015: Algae Hydrochar for Fictional Copper Adsorption",
+      "authors": [
+        "DemoAuthor-015, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2025,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates algae hydrochar for a fictional copper adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Algae Hydrochar",
+        "Copper",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-015",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "05ce95be-9a90-4e06-85de-609ee07c5e92",
+      "title": "DEMONSTRATION Study 016: Coconut Biochar for Fictional Nickel Adsorption",
+      "authors": [
+        "DemoAuthor-016, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2018,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates coconut biochar for a fictional nickel adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Coconut Biochar",
+        "Nickel",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.634995+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-016",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "19703f77-b076-4da2-bc88-5852c7c26673",
+      "title": "DEMONSTRATION Study 017: Cellulose Hydrochar for Fictional Chromium Adsorption",
+      "authors": [
+        "DemoAuthor-017, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2019,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates cellulose hydrochar for a fictional chromium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Cellulose Hydrochar",
+        "Chromium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-017",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "860b060b-9d81-46ef-a90c-b2d7b631db75",
+      "title": "DEMONSTRATION Study 018: Bamboo Biochar for Fictional Zinc Adsorption",
+      "authors": [
+        "DemoAuthor-018, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2020,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates bamboo biochar for a fictional zinc adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Bamboo Biochar",
+        "Zinc",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-018",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "2a51c7ad-f1b3-4c5b-a845-99445daa93b7",
+      "title": "DEMONSTRATION Study 019: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-019, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2021,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-019",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "ca3f9afe-4230-4df3-8cea-3b583955c02c",
+      "title": "DEMONSTRATION Study 020: Rice Husk Biochar for Fictional Cadmium Adsorption",
+      "authors": [
+        "DemoAuthor-020, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2022,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates rice husk biochar for a fictional cadmium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Rice Husk Biochar",
+        "Cadmium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-020",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "16a0182a-38f7-48d0-ba49-e687c9442a87",
+      "title": "DEMONSTRATION Study 021: Algae Hydrochar for Fictional Copper Adsorption",
+      "authors": [
+        "DemoAuthor-021, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2023,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates algae hydrochar for a fictional copper adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Algae Hydrochar",
+        "Copper",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-021",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "8b8b1977-bf06-4d3c-98a5-8ed2e4b7696b",
+      "title": "DEMONSTRATION Study 022: Coconut Biochar for Fictional Nickel Adsorption",
+      "authors": [
+        "DemoAuthor-022, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2024,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates coconut biochar for a fictional nickel adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Coconut Biochar",
+        "Nickel",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-022",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "86b34d26-3eed-44f1-80ca-91e4678d0100",
+      "title": "DEMONSTRATION Study 023: Cellulose Hydrochar for Fictional Chromium Adsorption",
+      "authors": [
+        "DemoAuthor-023, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2025,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates cellulose hydrochar for a fictional chromium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Cellulose Hydrochar",
+        "Chromium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-023",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "f228b2c0-7fed-43c7-96c1-d5724e8585d0",
+      "title": "DEMONSTRATION Study 024: Bamboo Biochar for Fictional Zinc Adsorption",
+      "authors": [
+        "DemoAuthor-024, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2018,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates bamboo biochar for a fictional zinc adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Bamboo Biochar",
+        "Zinc",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-024",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "dd35d175-611b-42fa-ab5b-eb90edef6842",
+      "title": "DEMONSTRATION Study 025: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-025, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2019,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-025",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "0c49991f-dc89-4e9a-bc12-aa0581ea0cf1",
+      "title": "DEMONSTRATION Study 026: Rice Husk Biochar for Fictional Cadmium Adsorption",
+      "authors": [
+        "DemoAuthor-026, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2020,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates rice husk biochar for a fictional cadmium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Rice Husk Biochar",
+        "Cadmium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-026",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "f3120425-e581-43af-b946-459a3a174fbd",
+      "title": "DEMONSTRATION Study 027: Algae Hydrochar for Fictional Copper Adsorption",
+      "authors": [
+        "DemoAuthor-027, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2021,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates algae hydrochar for a fictional copper adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Algae Hydrochar",
+        "Copper",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-027",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "72a30075-bbb9-4d52-b48d-447731995213",
+      "title": "DEMONSTRATION Study 028: Coconut Biochar for Fictional Nickel Adsorption",
+      "authors": [
+        "DemoAuthor-028, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2022,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates coconut biochar for a fictional nickel adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Coconut Biochar",
+        "Nickel",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-028",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "88c0da95-286d-4169-a845-3295104746ef",
+      "title": "DEMONSTRATION Study 029: Cellulose Hydrochar for Fictional Chromium Adsorption",
+      "authors": [
+        "DemoAuthor-029, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2023,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates cellulose hydrochar for a fictional chromium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Cellulose Hydrochar",
+        "Chromium",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-029",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "52be21de-da95-4d50-b9af-93ebc0ade80e",
+      "title": "DEMONSTRATION Study 030: Bamboo Biochar for Fictional Zinc Adsorption",
+      "authors": [
+        "DemoAuthor-030, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2024,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates bamboo biochar for a fictional zinc adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Bamboo Biochar",
+        "Zinc",
+        "adsorption"
+      ],
+      "source_database": "DemoIndex",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-030",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "156d0ec1-72d4-4d90-826c-7644bbe8b552",
+      "title": "DEMONSTRATION Study 031: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-031, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2025,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-031",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "2e3cbcad-a835-4ef3-b527-d8fda792c10b",
+      "title": "DEMONSTRATION Study 032: Rice Husk Biochar for Fictional Cadmium Adsorption",
+      "authors": [
+        "DemoAuthor-032, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2018,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates rice husk biochar for a fictional cadmium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Rice Husk Biochar",
+        "Cadmium",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-032",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "0d71f689-dcc7-4e79-a405-3c1ccb073280",
+      "title": "DEMONSTRATION Study 033: Algae Hydrochar for Fictional Copper Adsorption",
+      "authors": [
+        "DemoAuthor-033, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2019,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates algae hydrochar for a fictional copper adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Algae Hydrochar",
+        "Copper",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-033",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "d5b4180c-9508-4d6f-914f-7e55ecef3ead",
+      "title": "DEMONSTRATION Study 034: Coconut Biochar for Fictional Nickel Adsorption",
+      "authors": [
+        "DemoAuthor-034, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2020,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates coconut biochar for a fictional nickel adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Coconut Biochar",
+        "Nickel",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-034",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "ddfd47dc-375d-4729-978a-5ccf356cf84e",
+      "title": "DEMONSTRATION Study 035: Cellulose Hydrochar for Fictional Chromium Adsorption",
+      "authors": [
+        "DemoAuthor-035, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2021,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates cellulose hydrochar for a fictional chromium adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Cellulose Hydrochar",
+        "Chromium",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-035",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "5921fd2a-f6ac-40c1-a5ee-b45da6628a01",
+      "title": "DEMONSTRATION Study 036: Bamboo Biochar for Fictional Zinc Adsorption",
+      "authors": [
+        "DemoAuthor-036, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2022,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates bamboo biochar for a fictional zinc adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Bamboo Biochar",
+        "Zinc",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-036",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW"
+      },
+      "active": true,
+      "synthetic": true
+    },
+    {
+      "id": "f53b2da3-a1ea-4e01-ad11-6110d04fcfdd",
+      "title": "DEMONSTRATION Study 001: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-001, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2019,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-DUP-001",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW",
+        "duplicate_of": "DEMO-001"
+      },
+      "active": false,
+      "synthetic": true
+    },
+    {
+      "id": "36c69074-8800-46cb-a369-814f73273ba5",
+      "title": "DEMONSTRATION Study 007: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-007, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2025,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-DUP-007",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW",
+        "duplicate_of": "DEMO-007"
+      },
+      "active": false,
+      "synthetic": true
+    },
+    {
+      "id": "ce2b94ae-f8ce-41f8-b359-22f74b9faf0a",
+      "title": "DEMONSTRATION Study 013: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-013, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2023,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-DUP-013",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW",
+        "duplicate_of": "DEMO-013"
+      },
+      "active": false,
+      "synthetic": true
+    },
+    {
+      "id": "dbffa746-9f60-4775-b80f-5998840b8394",
+      "title": "DEMONSTRATION Study 019: Pine Biochar for Fictional Lead Adsorption",
+      "authors": [
+        "DemoAuthor-019, A.",
+        "SyntheticResearcher, B."
+      ],
+      "year": 2021,
+      "journal": "Journal of Fictional Adsorption Demonstrations",
+      "abstract": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. This synthetic record evaluates pine biochar for a fictional lead adsorption workflow.",
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "keywords": [
+        "DEMONSTRATION",
+        "Pine Biochar",
+        "Lead",
+        "adsorption"
+      ],
+      "source_database": "Other/manual",
+      "publication_type": "Synthetic demonstration article",
+      "full_text_path": null,
+      "imported_at": "2026-09-23T19:48:16.635994+00:00",
+      "import_batch_id": null,
+      "raw_metadata": {
+        "demo_id": "DEMO-DUP-019",
+        "warning": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW",
+        "duplicate_of": "DEMO-019"
+      },
+      "active": false,
+      "synthetic": true
+    }
+  ],
+  "screening_decisions": [
+    {
+      "id": "9890ae23-6f94-439f-aa43-5af27064ff58",
+      "record_id": "b4bd85b5-f9f9-4ed0-844c-c4f49304a069",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong population/system",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "242ae21e-3d17-4ec2-b2b6-ae84d240157f",
+      "record_id": "0683ebe2-8b79-4b6c-8ff1-7a98d146a07e",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong outcome",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "48a27cfe-681a-460a-a54f-3b69d7148b1f",
+      "record_id": "2d19c914-34f8-4a10-b8ab-0ac2a069854b",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Not primary research",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "713b56ed-ad5c-444b-8aea-5c8784802892",
+      "record_id": "ce5ccb04-30c6-49c1-9892-c23b34ae8aac",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong population/system",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "972ab99a-b80d-4705-89d9-00bdc192c744",
+      "record_id": "cf26ddba-fc1f-438a-8137-4f86278f9cfa",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong outcome",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "e0b6e964-8881-4842-a351-466cc45a5636",
+      "record_id": "38ee90b9-06e7-4195-b848-591fc54b53ab",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Not primary research",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "88d0d12e-8b17-4792-9508-b191e3853ac6",
+      "record_id": "4b559216-8a63-43d1-904e-9edf1c1e0b1b",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong population/system",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.785094+00:00"
+    },
+    {
+      "id": "1202faf2-5cee-47c6-8329-9f53fbf89a83",
+      "record_id": "5672fdf5-6bb1-492c-9e31-34aad3ab495e",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong outcome",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "24a3385f-8dc4-4acf-a6b4-ebfcfa2f2b8b",
+      "record_id": "8c0a5417-9bd7-4d2c-bc2f-1231e8edb6ed",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Not primary research",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "5b689e17-2a4d-4bfc-9342-31c5bd42fac5",
+      "record_id": "c62087d0-4279-4b85-a895-7fe91311aad7",
+      "stage": "title_abstract",
+      "decision": "exclude",
+      "reason": "Wrong population/system",
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "99c0f8ec-0344-423e-a379-9af81477a315",
+      "record_id": "f0536732-980d-47a6-8568-8f615d02b54b",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "ed02c2fe-60c9-438f-bbf7-15f65e0ba141",
+      "record_id": "fb964327-4ae8-4b83-929a-dcd8685f9847",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "d0e93bdd-5afc-4ea5-8d02-6c73dd5ffb4d",
+      "record_id": "1e31f052-d4a0-4890-abf3-118dfcf5c97d",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "dfde21cc-1084-4e66-a859-f8a449089368",
+      "record_id": "a5abda05-ec1b-4f0d-9bd5-4135dae367ba",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "81692786-2d0f-4e7f-8a76-34dc2cee732a",
+      "record_id": "b6d8ad1f-5877-4b78-91e5-1a9dc36bef83",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "c991a190-f713-449a-be17-3e2ab69e1f74",
+      "record_id": "05ce95be-9a90-4e06-85de-609ee07c5e92",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "f70aef06-79df-433b-a296-ee69dc9a96d2",
+      "record_id": "19703f77-b076-4da2-bc88-5852c7c26673",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "baef1b21-fed9-43a8-81f5-e7bab82042ed",
+      "record_id": "860b060b-9d81-46ef-a90c-b2d7b631db75",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "1282c458-ff59-4b8f-89a1-ab9fde125678",
+      "record_id": "2a51c7ad-f1b3-4c5b-a845-99445daa93b7",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "2b755295-d2e8-4d4f-8d68-360ff63ed9a4",
+      "record_id": "ca3f9afe-4230-4df3-8cea-3b583955c02c",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "b98c5920-ec08-4340-b34c-a3f6f0783979",
+      "record_id": "16a0182a-38f7-48d0-ba49-e687c9442a87",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "11f052ec-f16f-4edb-836d-0e41861faf16",
+      "record_id": "8b8b1977-bf06-4d3c-98a5-8ed2e4b7696b",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "048de353-3765-4bd4-a897-78ed71a60171",
+      "record_id": "86b34d26-3eed-44f1-80ca-91e4678d0100",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "44d509c8-e8ec-4df5-bcd5-54c3b3907297",
+      "record_id": "f228b2c0-7fed-43c7-96c1-d5724e8585d0",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "58ef9307-e04b-4366-9e06-1ae10e40cd51",
+      "record_id": "dd35d175-611b-42fa-ab5b-eb90edef6842",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "956cc4ee-afb9-48e4-a53d-2817b6f6a7a8",
+      "record_id": "0c49991f-dc89-4e9a-bc12-aa0581ea0cf1",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "0ea0f566-ec4e-4243-8cfa-7fef464c624c",
+      "record_id": "f3120425-e581-43af-b946-459a3a174fbd",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "10b6ad4a-3ec0-4624-af45-74edf1aec767",
+      "record_id": "72a30075-bbb9-4d52-b48d-447731995213",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "666deaf6-9f18-43b7-bd6c-78eaaadf6135",
+      "record_id": "88c0da95-286d-4169-a845-3295104746ef",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "868aaf54-5790-442f-a071-b459481331cc",
+      "record_id": "52be21de-da95-4d50-b9af-93ebc0ade80e",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "c215fcea-fce9-48cb-951e-917c426d97c6",
+      "record_id": "156d0ec1-72d4-4d90-826c-7644bbe8b552",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "9ac04d09-28f0-4604-9e64-d4496bebfdc1",
+      "record_id": "2e3cbcad-a835-4ef3-b527-d8fda792c10b",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "0c23f00b-1944-4b96-a11c-67ce5fab3fec",
+      "record_id": "0d71f689-dcc7-4e79-a405-3c1ccb073280",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "3a9106a9-8b5e-4c6f-8da9-f3b33bcd43aa",
+      "record_id": "d5b4180c-9508-4d6f-914f-7e55ecef3ead",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "1bd6ea68-3fa2-49a4-8100-0db95e6c25c3",
+      "record_id": "ddfd47dc-375d-4729-978a-5ccf356cf84e",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "b20044ac-1d5e-4e39-8198-39df290ce573",
+      "record_id": "5921fd2a-f6ac-40c1-a5ee-b45da6628a01",
+      "stage": "title_abstract",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic screening decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "eed79cf8-5e14-4108-9422-c616f25442e1",
+      "record_id": "f0536732-980d-47a6-8568-8f615d02b54b",
+      "stage": "full_text",
+      "decision": "exclude",
+      "reason": "No relevant outcome",
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "7dc0455e-9ff0-456f-8736-e2d448be7839",
+      "record_id": "fb964327-4ae8-4b83-929a-dcd8685f9847",
+      "stage": "full_text",
+      "decision": "exclude",
+      "reason": "Insufficient methodology",
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "3be6cac8-93c9-4cff-b504-bd53191eff8f",
+      "record_id": "1e31f052-d4a0-4890-abf3-118dfcf5c97d",
+      "stage": "full_text",
+      "decision": "exclude",
+      "reason": "Not within protocol criteria",
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "c79ab02b-8222-4f2d-a095-bcc8a68fa715",
+      "record_id": "a5abda05-ec1b-4f0d-9bd5-4135dae367ba",
+      "stage": "full_text",
+      "decision": "exclude",
+      "reason": "No relevant outcome",
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "47fa3856-509f-451f-823a-b96e49c2f74a",
+      "record_id": "b6d8ad1f-5877-4b78-91e5-1a9dc36bef83",
+      "stage": "full_text",
+      "decision": "exclude",
+      "reason": "Insufficient methodology",
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "467356b6-4278-4323-9bd8-3250d7b9072b",
+      "record_id": "05ce95be-9a90-4e06-85de-609ee07c5e92",
+      "stage": "full_text",
+      "decision": "exclude",
+      "reason": "Not within protocol criteria",
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "e85851de-8a6a-46ac-8f10-b83c312262b6",
+      "record_id": "19703f77-b076-4da2-bc88-5852c7c26673",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "83128b8c-e48c-428c-ae8e-cd6ced561a7d",
+      "record_id": "860b060b-9d81-46ef-a90c-b2d7b631db75",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "id": "54ecf329-3ea1-41aa-a225-5357bf8fbc25",
+      "record_id": "2a51c7ad-f1b3-4c5b-a845-99445daa93b7",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "id": "f23e8973-b227-4ef8-8265-ce6a1c4897ba",
+      "record_id": "ca3f9afe-4230-4df3-8cea-3b583955c02c",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "id": "de4d69fb-a3ca-4f47-a997-63747b6c46a0",
+      "record_id": "16a0182a-38f7-48d0-ba49-e687c9442a87",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "id": "d54195c3-0646-43e3-a814-5115c729b963",
+      "record_id": "8b8b1977-bf06-4d3c-98a5-8ed2e4b7696b",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "12ff406e-5bfa-45a9-ab2a-19aab24208b7",
+      "record_id": "86b34d26-3eed-44f1-80ca-91e4678d0100",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "de1152fe-a805-4693-8540-7b565b0e88ed",
+      "record_id": "f228b2c0-7fed-43c7-96c1-d5724e8585d0",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "b4dc08dd-fd11-49e2-a878-20cf4bc556a6",
+      "record_id": "dd35d175-611b-42fa-ab5b-eb90edef6842",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "3e952112-6a7a-4b92-8abf-a0ae39e5e847",
+      "record_id": "0c49991f-dc89-4e9a-bc12-aa0581ea0cf1",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "13847760-c6ba-4792-bf5c-dd119b19ddff",
+      "record_id": "f3120425-e581-43af-b946-459a3a174fbd",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "867a0cc2-6503-47b5-8277-0976f2613930",
+      "record_id": "72a30075-bbb9-4d52-b48d-447731995213",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "f512ce53-d863-48f6-935d-60702e07bd6d",
+      "record_id": "88c0da95-286d-4169-a845-3295104746ef",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "fb0b72ad-4352-404a-88a3-d52d5d6ab7fc",
+      "record_id": "52be21de-da95-4d50-b9af-93ebc0ade80e",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "id": "c081340f-78d6-40b4-b7e6-336ee7b2a0f5",
+      "record_id": "156d0ec1-72d4-4d90-826c-7644bbe8b552",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "id": "6c85218b-77df-47c7-8a79-d041056e6b6b",
+      "record_id": "2e3cbcad-a835-4ef3-b527-d8fda792c10b",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "id": "8b491de6-a441-4e2b-aded-46071c1c11c0",
+      "record_id": "0d71f689-dcc7-4e79-a405-3c1ccb073280",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "id": "e51b68d8-e8cd-4ad3-8890-9c8490010824",
+      "record_id": "d5b4180c-9508-4d6f-914f-7e55ecef3ead",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "id": "41160637-f339-452b-8751-108458418789",
+      "record_id": "ddfd47dc-375d-4729-978a-5ccf356cf84e",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "id": "7a03a33b-43b7-4693-a594-ac315064d68d",
+      "record_id": "5921fd2a-f6ac-40c1-a5ee-b45da6628a01",
+      "stage": "full_text",
+      "decision": "include",
+      "reason": null,
+      "notes": "Synthetic full-text decision",
+      "reviewer": "DEMO REVIEWER",
+      "decided_at": "2026-09-23T19:48:16.789098+00:00"
+    }
+  ],
+  "duplicate_candidates": [
+    {
+      "id": "83c82d32-784a-485a-9f83-25ed1bbeccc5",
+      "record_a_id": "b4bd85b5-f9f9-4ed0-844c-c4f49304a069",
+      "record_b_id": "f53b2da3-a1ea-4e01-ad11-6110d04fcfdd",
+      "classification": "likely",
+      "similarity_score": 100.0,
+      "reasons": [
+        "Same normalized title"
+      ],
+      "matching_fields": [
+        "title"
+      ],
+      "resolution": "keep_a",
+      "resolved_at": "2026-09-23T19:48:16.785094+00:00",
+      "reviewer": "DEMO REVIEWER"
+    },
+    {
+      "id": "1d4d06fb-2046-403e-8e61-d6975d46584b",
+      "record_a_id": "4b559216-8a63-43d1-904e-9edf1c1e0b1b",
+      "record_b_id": "36c69074-8800-46cb-a369-814f73273ba5",
+      "classification": "likely",
+      "similarity_score": 100.0,
+      "reasons": [
+        "Same normalized title"
+      ],
+      "matching_fields": [
+        "title"
+      ],
+      "resolution": "keep_a",
+      "resolved_at": "2026-09-23T19:48:16.785094+00:00",
+      "reviewer": "DEMO REVIEWER"
+    },
+    {
+      "id": "3bf1b701-07cb-4897-9eea-bb75eff21d57",
+      "record_a_id": "1e31f052-d4a0-4890-abf3-118dfcf5c97d",
+      "record_b_id": "ce2b94ae-f8ce-41f8-b359-22f74b9faf0a",
+      "classification": "likely",
+      "similarity_score": 100.0,
+      "reasons": [
+        "Same normalized title"
+      ],
+      "matching_fields": [
+        "title"
+      ],
+      "resolution": "keep_a",
+      "resolved_at": "2026-09-23T19:48:16.785094+00:00",
+      "reviewer": "DEMO REVIEWER"
+    },
+    {
+      "id": "06182670-3d72-4eda-8885-1e20867956ee",
+      "record_a_id": "2a51c7ad-f1b3-4c5b-a845-99445daa93b7",
+      "record_b_id": "dbffa746-9f60-4775-b80f-5998840b8394",
+      "classification": "likely",
+      "similarity_score": 100.0,
+      "reasons": [
+        "Same normalized title"
+      ],
+      "matching_fields": [
+        "title"
+      ],
+      "resolution": "keep_a",
+      "resolved_at": "2026-09-23T19:48:16.785094+00:00",
+      "reviewer": "DEMO REVIEWER"
+    }
+  ],
+  "extraction_entries": [
+    {
+      "record_id": "19703f77-b076-4da2-bc88-5852c7c26673",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Algae Hydrochar",
+        "adsorbate_pollutant": "Chromium",
+        "ph": "6",
+        "temperature": "35",
+        "adsorption_capacity": "89",
+        "removal_efficiency": "74",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "183",
+        "regeneration_cycles": "4",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "record_id": "860b060b-9d81-46ef-a90c-b2d7b631db75",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Coconut Biochar",
+        "adsorbate_pollutant": "Zinc",
+        "ph": "7",
+        "temperature": "20",
+        "adsorption_capacity": "96",
+        "removal_efficiency": "78",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": null,
+        "regeneration_cycles": "5",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "record_id": "2a51c7ad-f1b3-4c5b-a845-99445daa93b7",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Cellulose Hydrochar",
+        "adsorbate_pollutant": "Lead",
+        "ph": "8",
+        "temperature": "25",
+        "adsorption_capacity": "103",
+        "removal_efficiency": "82",
+        "equilibrium_models": "Langmuir",
+        "kinetic_models": "Pseudo-first-order",
+        "bet_surface_area": "201",
+        "regeneration_cycles": "6",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "record_id": "ca3f9afe-4230-4df3-8cea-3b583955c02c",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Bamboo Biochar",
+        "adsorbate_pollutant": "Cadmium",
+        "ph": "4",
+        "temperature": "30",
+        "adsorption_capacity": "110",
+        "removal_efficiency": "86",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "210",
+        "regeneration_cycles": null,
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "record_id": "16a0182a-38f7-48d0-ba49-e687c9442a87",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Pine Biochar",
+        "adsorbate_pollutant": "Copper",
+        "ph": "5",
+        "temperature": "35",
+        "adsorption_capacity": "117",
+        "removal_efficiency": "90",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "219",
+        "regeneration_cycles": "3",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "8b8b1977-bf06-4d3c-98a5-8ed2e4b7696b",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Rice Husk Biochar",
+        "adsorbate_pollutant": "Nickel",
+        "ph": "6",
+        "temperature": "20",
+        "adsorption_capacity": "124",
+        "removal_efficiency": "70",
+        "equilibrium_models": "Langmuir",
+        "kinetic_models": "Pseudo-first-order",
+        "bet_surface_area": null,
+        "regeneration_cycles": "4",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "86b34d26-3eed-44f1-80ca-91e4678d0100",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Algae Hydrochar",
+        "adsorbate_pollutant": "Chromium",
+        "ph": "7",
+        "temperature": "25",
+        "adsorption_capacity": "131",
+        "removal_efficiency": "74",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "237",
+        "regeneration_cycles": "5",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "f228b2c0-7fed-43c7-96c1-d5724e8585d0",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Coconut Biochar",
+        "adsorbate_pollutant": "Zinc",
+        "ph": "8",
+        "temperature": "30",
+        "adsorption_capacity": "138",
+        "removal_efficiency": "78",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "246",
+        "regeneration_cycles": "6",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "dd35d175-611b-42fa-ab5b-eb90edef6842",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Cellulose Hydrochar",
+        "adsorbate_pollutant": "Lead",
+        "ph": "4",
+        "temperature": "35",
+        "adsorption_capacity": "145",
+        "removal_efficiency": "82",
+        "equilibrium_models": "Langmuir",
+        "kinetic_models": "Pseudo-first-order",
+        "bet_surface_area": "255",
+        "regeneration_cycles": null,
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "0c49991f-dc89-4e9a-bc12-aa0581ea0cf1",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Bamboo Biochar",
+        "adsorbate_pollutant": "Cadmium",
+        "ph": "5",
+        "temperature": "20",
+        "adsorption_capacity": "152",
+        "removal_efficiency": "86",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": null,
+        "regeneration_cycles": "3",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "f3120425-e581-43af-b946-459a3a174fbd",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Pine Biochar",
+        "adsorbate_pollutant": "Copper",
+        "ph": "6",
+        "temperature": "25",
+        "adsorption_capacity": "159",
+        "removal_efficiency": "90",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "273",
+        "regeneration_cycles": "4",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "72a30075-bbb9-4d52-b48d-447731995213",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Rice Husk Biochar",
+        "adsorbate_pollutant": "Nickel",
+        "ph": "7",
+        "temperature": "30",
+        "adsorption_capacity": "166",
+        "removal_efficiency": "70",
+        "equilibrium_models": "Langmuir",
+        "kinetic_models": "Pseudo-first-order",
+        "bet_surface_area": "282",
+        "regeneration_cycles": "5",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "88c0da95-286d-4169-a845-3295104746ef",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Algae Hydrochar",
+        "adsorbate_pollutant": "Chromium",
+        "ph": "8",
+        "temperature": "35",
+        "adsorption_capacity": "173",
+        "removal_efficiency": "74",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "291",
+        "regeneration_cycles": "6",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "52be21de-da95-4d50-b9af-93ebc0ade80e",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Coconut Biochar",
+        "adsorbate_pollutant": "Zinc",
+        "ph": "4",
+        "temperature": "20",
+        "adsorption_capacity": "180",
+        "removal_efficiency": "78",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": null,
+        "regeneration_cycles": null,
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "156d0ec1-72d4-4d90-826c-7644bbe8b552",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Cellulose Hydrochar",
+        "adsorbate_pollutant": "Lead",
+        "ph": "5",
+        "temperature": "25",
+        "adsorption_capacity": "187",
+        "removal_efficiency": "82",
+        "equilibrium_models": "Langmuir",
+        "kinetic_models": "Pseudo-first-order",
+        "bet_surface_area": "309",
+        "regeneration_cycles": "3",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "2e3cbcad-a835-4ef3-b527-d8fda792c10b",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Bamboo Biochar",
+        "adsorbate_pollutant": "Cadmium",
+        "ph": "6",
+        "temperature": "30",
+        "adsorption_capacity": "194",
+        "removal_efficiency": "86",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "318",
+        "regeneration_cycles": "4",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "0d71f689-dcc7-4e79-a405-3c1ccb073280",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Pine Biochar",
+        "adsorbate_pollutant": "Copper",
+        "ph": "7",
+        "temperature": "35",
+        "adsorption_capacity": "201",
+        "removal_efficiency": "90",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "327",
+        "regeneration_cycles": "5",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "d5b4180c-9508-4d6f-914f-7e55ecef3ead",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Rice Husk Biochar",
+        "adsorbate_pollutant": "Nickel",
+        "ph": "8",
+        "temperature": "20",
+        "adsorption_capacity": "208",
+        "removal_efficiency": "70",
+        "equilibrium_models": "Langmuir",
+        "kinetic_models": "Pseudo-first-order",
+        "bet_surface_area": null,
+        "regeneration_cycles": "6",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "ddfd47dc-375d-4729-978a-5ccf356cf84e",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Algae Hydrochar",
+        "adsorbate_pollutant": "Chromium",
+        "ph": "4",
+        "temperature": "25",
+        "adsorption_capacity": "215",
+        "removal_efficiency": "74",
+        "equilibrium_models": "Freundlich",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "345",
+        "regeneration_cycles": null,
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "5921fd2a-f6ac-40c1-a5ee-b45da6628a01",
+      "template": "adsorption",
+      "values": {
+        "adsorbent": "Coconut Biochar",
+        "adsorbate_pollutant": "Zinc",
+        "ph": "5",
+        "temperature": "30",
+        "adsorption_capacity": "222",
+        "removal_efficiency": "78",
+        "equilibrium_models": "Sips",
+        "kinetic_models": "Pseudo-second-order",
+        "bet_surface_area": "354",
+        "regeneration_cycles": "3",
+        "key_conclusion": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. Fictional result for workflow testing only."
+      },
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    }
+  ],
+  "quality_assessments": [
+    {
+      "record_id": "19703f77-b076-4da2-bc88-5852c7c26673",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "record_id": "860b060b-9d81-46ef-a90c-b2d7b631db75",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.786096+00:00"
+    },
+    {
+      "record_id": "2a51c7ad-f1b3-4c5b-a845-99445daa93b7",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "record_id": "ca3f9afe-4230-4df3-8cea-3b583955c02c",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.787062+00:00"
+    },
+    {
+      "record_id": "16a0182a-38f7-48d0-ba49-e687c9442a87",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "8b8b1977-bf06-4d3c-98a5-8ed2e4b7696b",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "86b34d26-3eed-44f1-80ca-91e4678d0100",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "f228b2c0-7fed-43c7-96c1-d5724e8585d0",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "dd35d175-611b-42fa-ab5b-eb90edef6842",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "0c49991f-dc89-4e9a-bc12-aa0581ea0cf1",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "f3120425-e581-43af-b946-459a3a174fbd",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "72a30075-bbb9-4d52-b48d-447731995213",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "88c0da95-286d-4169-a845-3295104746ef",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.788063+00:00"
+    },
+    {
+      "record_id": "52be21de-da95-4d50-b9af-93ebc0ade80e",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "156d0ec1-72d4-4d90-826c-7644bbe8b552",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "2e3cbcad-a835-4ef3-b527-d8fda792c10b",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "0d71f689-dcc7-4e79-a405-3c1ccb073280",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "d5b4180c-9508-4d6f-914f-7e55ecef3ead",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "ddfd47dc-375d-4729-978a-5ccf356cf84e",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    },
+    {
+      "record_id": "5921fd2a-f6ac-40c1-a5ee-b45da6628a01",
+      "framework": "Demonstration generic domains",
+      "domains": [
+        {
+          "domain": "Clear research objective",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Appropriate study design",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Adequate method description",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Sample/replicate clarity",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Control/comparator suitability",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Statistical analysis adequacy",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Outcome reporting completeness",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Potential confounding",
+          "rating": "low_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Selective reporting concerns",
+          "rating": "some_concern",
+          "notes": "Synthetic domain judgment for software demonstration"
+        },
+        {
+          "domain": "Reproducibility information",
+          "rating": "unclear",
+          "notes": "Synthetic domain judgment for software demonstration"
+        }
+      ],
+      "reviewer": "DEMO REVIEWER",
+      "updated_at": "2026-09-23T19:48:16.789098+00:00"
+    }
+  ],
+  "synthesis_notes": "DEMONSTRATION DATA - NOT A REAL SYSTEMATIC REVIEW. The fictional dataset frequently reports adsorption capacity and model fitting, while regeneration and BET data are intentionally missing in some records. These patterns demonstrate software behavior and are not scientific findings.",
+  "other_source_records": 0
+}

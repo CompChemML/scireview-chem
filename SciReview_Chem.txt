@@ -1,0 +1,1857 @@
+You are a senior scientific software engineer, evidence-synthesis specialist,
+Python developer, and research-methodology expert.
+
+Build a professional zero-cost scientific application called:
+
+============================================================
+SCIREVIEW CHEM
+Systematic Literature Review & Evidence Synthesis Workbench
+============================================================
+
+PURPOSE
+
+SciReview Chem is a scientific research application for:
+
+- chemistry
+- materials science
+- environmental science
+- nanotechnology
+- toxicology
+- cheminformatics
+- chemical regulatory research
+- pharmaceutical and life-science literature
+- scientific consulting
+
+Its purpose is to help a researcher or scientific freelancer conduct a
+transparent and reproducible literature-review workflow from:
+
+RESEARCH QUESTION
+      ↓
+SEARCH STRATEGY
+      ↓
+REFERENCE IMPORT
+      ↓
+DEDUPLICATION
+      ↓
+TITLE / ABSTRACT SCREENING
+      ↓
+FULL-TEXT SCREENING
+      ↓
+DATA EXTRACTION
+      ↓
+QUALITY / BIAS ASSESSMENT
+      ↓
+EVIDENCE TABLE
+      ↓
+PRISMA FLOW
+      ↓
+EVIDENCE SYNTHESIS
+      ↓
+REPORT / EXPORT
+
+This project is intended primarily as:
+
+1. a professional scientific freelancing portfolio project,
+2. a practical local tool for future Kolabtree / Upwork work,
+3. a research workflow assistant,
+4. a foundation for more advanced evidence-synthesis software later.
+
+It is NOT intended to automatically replace scientific judgment.
+
+============================================================
+1. ABSOLUTE ZERO-COST CONSTRAINT
+============================================================
+
+The complete MVP must cost $0 to build and operate locally.
+
+Use only free and open-source software.
+
+DO NOT require:
+
+- OpenAI API
+- Anthropic API
+- Gemini API
+- any paid LLM
+- commercial literature databases
+- paid reference-management API
+- paid OCR API
+- paid hosting
+- AWS paid services
+- Azure paid services
+- Google Cloud paid services
+- Supabase paid plans
+- Firebase paid plans
+- commercial PDF parsers
+- paid databases
+- subscription services
+- authentication providers
+- Stripe
+- custom domain
+
+The application must remain fully usable locally with:
+
+streamlit run app.py
+
+If public deployment is added, it must be optional and free.
+
+The local version is the primary product.
+
+No API key should be mandatory.
+
+============================================================
+2. CORE PHILOSOPHY
+============================================================
+
+SciReview Chem must prioritize:
+
+- reproducibility
+- traceability
+- transparent decisions
+- human-controlled screening
+- explicit inclusion/exclusion reasons
+- auditable search strategies
+- citation integrity
+- scientific caution
+- reproducible evidence tables
+
+Never silently invent:
+
+- papers
+- DOIs
+- abstracts
+- authors
+- results
+- study characteristics
+- exclusion reasons
+- risk-of-bias ratings
+- citations
+
+Never fabricate missing metadata.
+
+Never automatically declare a paper relevant without allowing human review.
+
+Never generate conclusions from evidence that has not actually been entered
+or imported.
+
+============================================================
+3. TECHNOLOGY STACK
+============================================================
+
+Use Python 3.11+.
+
+Preferred libraries:
+
+- Streamlit
+- Pandas
+- NumPy
+- openpyxl
+- matplotlib
+- plotly
+- networkx if helpful
+- rapidfuzz
+- bibtexparser
+- RISparser or equivalent free RIS parser
+- python-dateutil
+- pydantic if helpful
+- ReportLab
+- pytest
+
+Optional free packages may be added only when genuinely justified.
+
+Avoid unnecessary heavy dependencies.
+
+No JavaScript framework is required unless absolutely necessary.
+
+Keep research logic separate from Streamlit UI code.
+
+============================================================
+4. APPLICATION NAME / BRAND
+============================================================
+
+Product:
+
+SciReview Chem
+
+Subtitle:
+
+Systematic Literature Review & Evidence Synthesis Workbench
+
+Suggested tagline:
+
+"From Search Strategy to Defensible Evidence"
+
+Alternative:
+
+"Transparent evidence synthesis for scientific research."
+
+The product should visually belong to the same scientific-software family
+as SciStat Chem and AdsorpLab.
+
+It must NOT look like a generic default Streamlit application.
+
+============================================================
+5. TARGET USERS
+============================================================
+
+Primary users:
+
+- MSc researchers
+- PhD researchers
+- university academics
+- chemistry researchers
+- materials scientists
+- environmental scientists
+- freelance scientific consultants
+- regulatory researchers
+- toxicology researchers
+- scientific writers
+- evidence-synthesis researchers
+
+Typical freelance requests include:
+
+- systematic literature review
+- scoping review
+- structured literature search
+- scientific evidence review
+- technology landscape
+- gap analysis
+- regulatory evidence research
+- materials literature survey
+- environmental evidence synthesis
+- toxicology literature review
+- state-of-the-art review
+
+============================================================
+6. MVP APPLICATION PAGES
+============================================================
+
+Create approximately:
+
+1. Dashboard
+2. Review Protocol
+3. Search Strategy
+4. Reference Import
+5. Deduplication
+6. Screening
+7. Full-Text Review
+8. Data Extraction
+9. Quality Assessment
+10. Evidence Table
+11. PRISMA Flow
+12. Evidence Synthesis
+13. Reports & Export
+14. About / Methods
+
+Use modular architecture.
+
+============================================================
+7. PROJECT STRUCTURE
+============================================================
+
+Use a professional repository structure similar to:
+
+scireview-chem/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── pages/
+│   ├── 1_Review_Protocol.py
+│   ├── 2_Search_Strategy.py
+│   ├── 3_Reference_Import.py
+│   ├── 4_Deduplication.py
+│   ├── 5_Screening.py
+│   ├── 6_Full_Text_Review.py
+│   ├── 7_Data_Extraction.py
+│   ├── 8_Quality_Assessment.py
+│   ├── 9_Evidence_Table.py
+│   ├── 10_PRISMA_Flow.py
+│   ├── 11_Evidence_Synthesis.py
+│   ├── 12_Reports.py
+│   └── 13_About.py
+│
+├── src/
+│   └── scireview/
+│       ├── models/
+│       ├── importers/
+│       ├── deduplication/
+│       ├── screening/
+│       ├── extraction/
+│       ├── quality/
+│       ├── prisma/
+│       ├── synthesis/
+│       ├── reporting/
+│       ├── visualization/
+│       └── utils/
+│
+├── sample_data/
+├── tests/
+├── assets/
+└── docs/
+
+Improve this structure where justified.
+
+============================================================
+8. REVIEW PROTOCOL MODULE
+============================================================
+
+Before searching literature, allow the user to define a protocol.
+
+Fields should include:
+
+- Review title
+- Review type
+- Research question
+- Review objective
+- Scientific domain
+- Population / material / system
+- Exposure / intervention
+- Comparator
+- Outcome
+- Date range
+- Language restrictions
+- Study-type restrictions
+- Inclusion criteria
+- Exclusion criteria
+- Databases planned
+- Notes
+
+Review type options:
+
+- Narrative review
+- Systematic review
+- Scoping review
+- Evidence map
+- Rapid review
+- Gap analysis
+
+Do NOT call every review a systematic review automatically.
+
+Provide educational help explaining the differences.
+
+============================================================
+9. PICO / PECO / QUESTION FRAMEWORK
+============================================================
+
+Provide optional structured research-question builders.
+
+PICO:
+
+P = Population
+I = Intervention
+C = Comparator
+O = Outcome
+
+PECO:
+
+P = Population
+E = Exposure
+C = Comparator
+O = Outcome
+
+Also support chemistry/materials adaptation such as:
+
+Material / System
+Treatment / Exposure
+Comparator
+Outcome
+
+Example:
+
+Material:
+iron-oxide-based adsorbents
+
+Exposure:
+aqueous heavy-metal contamination
+
+Comparator:
+alternative sorbents / synthesis conditions
+
+Outcome:
+adsorption capacity, kinetics, removal efficiency
+
+Do not force medical terminology onto chemistry projects.
+
+============================================================
+10. SEARCH STRATEGY BUILDER
+============================================================
+
+Create a professional search-string builder.
+
+Allow users to create concept blocks.
+
+Example:
+
+Concept A:
+biochar
+hydrochar
+carbonaceous adsorbent
+
+Concept B:
+adsorption
+sorption
+removal
+
+Concept C:
+lead
+cadmium
+heavy metal
+
+Build Boolean strings using:
+
+OR within concept blocks
+AND between concept blocks
+
+Example:
+
+("biochar" OR "hydrochar" OR "carbonaceous adsorbent")
+AND
+("adsorption" OR "sorption" OR "removal")
+AND
+("lead" OR "cadmium" OR "heavy metal")
+
+Support:
+
+- quotation marks
+- Boolean AND
+- Boolean OR
+- Boolean NOT
+- parentheses
+- wildcards as manually entered text
+- field-specific notes
+
+The tool should NOT pretend all databases use identical query syntax.
+
+Allow separate stored search strings for:
+
+- PubMed
+- Scopus
+- Web of Science
+- Google Scholar
+- Crossref
+- OpenAlex
+- other/manual
+
+Record:
+
+database
+exact query
+search date
+number of records retrieved
+notes
+
+This creates an audit trail.
+
+============================================================
+11. REFERENCE IMPORT
+============================================================
+
+Support imports from:
+
+- RIS
+- BibTeX
+- CSV
+- XLSX
+
+Optional:
+
+- PubMed-style exported records if easy to support
+- Crossref/OpenAlex CSV exports
+
+Expected metadata where available:
+
+- title
+- authors
+- year
+- journal
+- abstract
+- DOI
+- PMID
+- URL
+- keywords
+- database/source
+- publication type
+
+Do not require every field.
+
+Preserve original imported metadata.
+
+Add internal unique record IDs.
+
+============================================================
+12. DEDUPLICATION ENGINE
+============================================================
+
+Implement transparent deduplication.
+
+Use strongest identifiers first:
+
+1. DOI exact match
+2. PMID exact match
+3. normalized title exact match
+4. fuzzy-title match
+5. title + year + first author similarity
+
+Do NOT automatically delete uncertain duplicates.
+
+Classify potential duplicates approximately as:
+
+- Confirmed duplicate
+- Likely duplicate
+- Possible duplicate
+- Unique
+
+Allow human confirmation.
+
+For each duplicate candidate show:
+
+Record A
+Record B
+matching fields
+similarity score
+reason for match
+
+Possible reason:
+
+"Same DOI"
+
+or:
+
+"Title similarity = 97%, same publication year"
+
+Allow:
+
+Keep A
+Keep B
+Keep both
+Merge metadata
+
+Always preserve audit history.
+
+Report:
+
+records imported
+exact duplicates
+possible duplicates
+records after deduplication
+
+============================================================
+13. TITLE / ABSTRACT SCREENING
+============================================================
+
+Create an efficient screening interface.
+
+For each record display:
+
+- title
+- abstract
+- year
+- authors
+- journal
+- DOI
+- keywords
+- source database
+
+Screening decisions:
+
+Include
+Exclude
+Maybe / Uncertain
+
+Allow predefined exclusion reasons.
+
+Examples:
+
+- wrong population/system
+- wrong intervention/exposure
+- wrong outcome
+- wrong study type
+- not primary research
+- outside date range
+- wrong language
+- duplicate
+- insufficient information
+- other
+
+During title/abstract screening, exclusion reason may be optional.
+
+For full-text screening, exclusion reason should be required.
+
+Allow:
+
+next record
+previous record
+filter included
+filter excluded
+filter uncertain
+
+Track:
+
+screening status
+timestamp if practical
+decision
+reason
+notes
+
+============================================================
+14. FULL-TEXT SCREENING
+============================================================
+
+Allow the user to associate a local PDF filename or path reference with
+a record if available.
+
+Do NOT scrape paywalled articles.
+
+Do NOT bypass publisher access controls.
+
+The user can manually provide legally obtained PDFs.
+
+Full-text decision:
+
+Include
+Exclude
+Awaiting PDF
+Uncertain
+
+Require explicit exclusion reason for excluded full texts.
+
+Examples:
+
+- wrong experimental system
+- no relevant outcome
+- conference abstract only
+- insufficient methodology
+- duplicate publication
+- inaccessible required information
+- not within protocol criteria
+
+Store decision history.
+
+============================================================
+15. DATA EXTRACTION
+============================================================
+
+Build customizable extraction forms.
+
+Default general fields:
+
+Study ID
+Citation
+Year
+Country
+Study objective
+Study design
+Sample/material
+Experimental conditions
+Methods
+Primary outcome
+Secondary outcomes
+Key findings
+Limitations
+Funding
+Conflicts of interest
+Notes
+
+For chemistry/materials reviews provide optional templates.
+
+Example ADSORPTION template:
+
+- adsorbent
+- precursor
+- synthesis method
+- activation method
+- adsorbate/pollutant
+- initial concentration
+- pH
+- temperature
+- adsorbent dosage
+- contact time
+- adsorption capacity
+- removal efficiency
+- equilibrium models
+- kinetic models
+- thermodynamic analysis
+- BET surface area
+- pore volume
+- XRD
+- FTIR
+- SEM
+- TEM
+- XPS
+- regeneration cycles
+- key conclusion
+
+Allow custom columns.
+
+Support:
+
+categorical
+numeric
+free text
+yes/no
+multi-select
+
+Never infer missing values.
+
+Use:
+
+NR = not reported
+
+where appropriate.
+
+============================================================
+16. QUALITY / BIAS ASSESSMENT
+============================================================
+
+The MVP should NOT pretend one universal bias tool fits every study.
+
+Instead provide customizable quality-assessment templates.
+
+Default generic domains:
+
+- clear research objective
+- appropriate study design
+- adequate method description
+- sample/replicate clarity
+- control/comparator suitability
+- statistical analysis adequacy
+- outcome reporting completeness
+- potential confounding
+- selective reporting concerns
+- reproducibility information
+
+Possible rating:
+
+Low concern
+Some concern
+High concern
+Not applicable
+Unclear
+
+Allow reviewer notes.
+
+IMPORTANT:
+
+Do not automatically calculate a scientifically authoritative "quality score"
+unless the selected framework legitimately supports such scoring.
+
+Prefer domain-by-domain assessment.
+
+Clearly state:
+
+Quality assessment depends on review context and study design.
+
+============================================================
+17. EVIDENCE TABLE
+============================================================
+
+Generate a filterable evidence table.
+
+For adsorption example:
+
+Study
+Year
+Adsorbent
+Pollutant
+pH
+Temperature
+Capacity
+Isotherm
+Kinetic model
+BET
+Characterization
+Regeneration
+Key finding
+
+Allow:
+
+sort
+filter
+search
+column selection
+CSV export
+Excel export
+
+Visually highlight:
+
+NR / missing information
+
+but do not treat missing as zero.
+
+============================================================
+18. PRISMA FLOW MODULE
+============================================================
+
+Generate a PRISMA-style flow diagram.
+
+Track:
+
+Records identified from databases
+Records identified from other sources
+Duplicates removed
+Records screened
+Records excluded
+Reports sought
+Reports not retrieved
+Full texts assessed
+Full texts excluded
+Studies included
+
+Also allow custom exclusion counts.
+
+Generate:
+
+interactive preview
+PNG
+SVG
+PDF
+
+The PRISMA numbers must be calculated from actual tracked records.
+
+Do not invent counts.
+
+Include a validation check:
+
+Identified
+minus duplicates
+minus screening exclusions
+minus full-text exclusions
+must reconcile with final included records.
+
+If counts do not reconcile, warn the user.
+
+============================================================
+19. EVIDENCE SYNTHESIS
+============================================================
+
+The MVP should help researchers synthesize evidence WITHOUT using an LLM.
+
+Provide structured synthesis tools such as:
+
+- frequency tables
+- study-characteristic summaries
+- grouped evidence tables
+- year distributions
+- publication trends
+- method frequencies
+- material frequencies
+- outcome distributions
+- missing-data patterns
+
+For chemistry/materials reviews:
+
+Example outputs:
+
+Number of studies using Langmuir
+Number using Freundlich
+Number reporting BET
+Number reporting regeneration
+Distribution by pollutant
+Distribution by adsorbent family
+Publication year trend
+
+Allow user-written synthesis notes.
+
+Do NOT automatically write scientific conclusions as if they were facts.
+
+============================================================
+20. GAP ANALYSIS
+============================================================
+
+Provide structured research-gap support.
+
+Examples:
+
+Frequently measured:
+adsorption capacity
+
+Rarely measured:
+regeneration performance
+
+Frequently reported:
+Langmuir fitting
+
+Rarely reported:
+uncertainty / confidence intervals
+
+Potential gap categories:
+
+- method gap
+- evidence gap
+- population/material gap
+- geographic gap
+- methodological-quality gap
+- reporting gap
+- contradictory-results gap
+- reproducibility gap
+
+The software should show evidence patterns.
+
+The researcher decides whether something is scientifically a meaningful gap.
+
+============================================================
+21. BASIC VISUALIZATION
+============================================================
+
+Create publication-ready visualizations such as:
+
+Publication year trend
+Study counts by category
+Outcome distribution
+Methods frequency
+Geographic distribution if data supplied
+Evidence heatmap
+Missing-data heatmap
+
+Use:
+
+Plotly for interactive plots
+Matplotlib for publication-quality exports
+
+Exports:
+
+PNG 300 dpi
+SVG
+PDF
+
+Avoid decorative charts with little scientific value.
+
+============================================================
+22. OPTIONAL CITATION NETWORK — PHASE 2
+============================================================
+
+If citation metadata are available, optionally support:
+
+- author collaboration network
+- keyword co-occurrence
+- study similarity map
+
+Do NOT delay MVP for this.
+
+Do not invent citation links.
+
+Only create network edges from actual imported metadata.
+
+============================================================
+23. REPORT GENERATION
+============================================================
+
+Generate a professional PDF review-workflow report.
+
+Possible sections:
+
+1. Review title
+2. Research question
+3. Review objective
+4. Protocol
+5. Search strategy
+6. Databases searched
+7. Search dates
+8. Inclusion criteria
+9. Exclusion criteria
+10. Deduplication summary
+11. Screening summary
+12. PRISMA flow
+13. Included-study characteristics
+14. Evidence table
+15. Quality-assessment summary
+16. Evidence synthesis
+17. Research gaps
+18. Limitations
+19. Reproducibility information
+20. Software/version record
+
+Do not generate fake narrative conclusions.
+
+User-written interpretation can be inserted where provided.
+
+============================================================
+24. EXCEL EXPORT
+============================================================
+
+Create a professional workbook with sheets such as:
+
+Protocol
+Search Strategies
+Imported Records
+Deduplication Log
+Screening Decisions
+Full Text Decisions
+Included Studies
+Data Extraction
+Quality Assessment
+Evidence Table
+PRISMA Counts
+Synthesis Summary
+Metadata
+
+Preserve raw records.
+
+Do not overwrite raw imported metadata.
+
+============================================================
+25. SESSION / PROJECT SAVE
+============================================================
+
+Support saving project state locally.
+
+Preferred free format:
+
+JSON
+and/or
+SQLite
+
+SQLite is acceptable because it is free and local.
+
+No external database.
+
+A review project should be reopenable later.
+
+Save:
+
+protocol
+searches
+records
+screening decisions
+extraction data
+quality assessments
+PRISMA counts
+notes
+project metadata
+
+Avoid data loss between Streamlit page navigation.
+
+============================================================
+26. SAMPLE DEMONSTRATION PROJECT
+============================================================
+
+Create a synthetic/demo systematic-review dataset.
+
+Clearly mark:
+
+DEMONSTRATION DATA — NOT A REAL SYSTEMATIC REVIEW
+
+Suggested case study:
+
+"Adsorption of Heavy Metals Using Biochar and Hydrochar:
+A Demonstration Evidence Review"
+
+Create around:
+
+30–50 synthetic bibliographic records
+
+with intentional:
+
+duplicates
+missing DOI values
+varying titles
+screening exclusions
+included studies
+
+The demo should exercise:
+
+import
+deduplication
+screening
+full-text decisions
+data extraction
+PRISMA
+evidence table
+synthesis
+
+Do NOT fabricate these records in a way that could be mistaken for real papers.
+
+Use clearly fictional titles and authors.
+
+Example:
+
+DEMO-001
+"Demonstration Study of Biochar-X for Lead Adsorption"
+
+Clearly label every record as synthetic.
+
+============================================================
+27. CASE STUDY
+============================================================
+
+Create a polished portfolio case study.
+
+Title example:
+
+SciReview Chem
+Systematic Evidence Workflow for Adsorption Research
+
+Demonstrate:
+
+Research question
+Protocol
+Search concepts
+Import
+Deduplication
+Screening
+PRISMA flow
+Extraction
+Evidence table
+Quality assessment
+Synthesis
+Gap identification
+Limitations
+Reproducibility
+
+Clearly display:
+
+DEMONSTRATION DATA — NOT REAL RESEARCH EVIDENCE
+
+The final case study should be suitable for:
+
+- Kolabtree portfolio
+- Upwork portfolio
+- Fiverr portfolio
+- GitHub
+- personal scientific website
+
+============================================================
+28. TESTING
+============================================================
+
+Use pytest.
+
+At minimum test:
+
+RIS import
+BibTeX import
+CSV import
+DOI normalization
+title normalization
+exact DOI duplicate matching
+exact title duplicate matching
+fuzzy duplicate matching
+screening-state persistence
+full-text exclusion-reason validation
+PRISMA count reconciliation
+Excel export
+project serialization
+evidence-table filtering
+missing-data handling
+
+Create deterministic synthetic test data.
+
+============================================================
+29. DEDUPLICATION SAFETY
+============================================================
+
+This is critical.
+
+Never silently delete a potential duplicate based only on fuzzy matching.
+
+Example:
+
+Title similarity = 91%
+
+should result in:
+
+"Possible duplicate — reviewer confirmation required"
+
+not:
+
+"Deleted"
+
+Exact DOI matches may be flagged as confirmed duplicates, but still preserve audit history.
+
+============================================================
+30. CITATION INTEGRITY
+============================================================
+
+Mandatory rules:
+
+1. Never create a citation that is not present in the imported dataset.
+2. Never invent DOI values.
+3. Never create authors.
+4. Never guess a journal name.
+5. Never replace missing metadata with plausible text.
+6. Keep a clear distinction between imported metadata and user-entered information.
+7. Preserve original titles.
+8. Record metadata edits.
+9. If bibliographic data conflict, flag the conflict.
+10. Never create fake references in generated reports.
+
+============================================================
+31. SCREENING INTEGRITY
+============================================================
+
+Mandatory principles:
+
+- Exclusions must be traceable.
+- Full-text exclusions need reasons.
+- Uncertain studies remain uncertain until reviewed.
+- Software must not decide scientific eligibility autonomously.
+- Reviewer decisions must remain editable.
+- Raw imported records must remain preserved.
+- PRISMA counts must derive from decisions.
+- No hidden record deletion.
+
+============================================================
+32. SYSTEMATIC REVIEW EDUCATION PANEL
+============================================================
+
+Build small educational explanations throughout the interface.
+
+Examples:
+
+Narrative Review:
+Broad interpretive overview; methods may be less formally predefined.
+
+Systematic Review:
+Predefined question, transparent methods, reproducible searching and screening.
+
+Scoping Review:
+Maps the breadth and characteristics of evidence.
+
+Meta-analysis:
+Statistical combination of quantitative results when studies are sufficiently comparable.
+
+Important:
+
+A systematic review does NOT automatically require meta-analysis.
+
+A literature review is NOT automatically systematic just because many papers were read.
+
+============================================================
+33. UI / VISUAL DESIGN
+============================================================
+
+Use the same scientific-product family as:
+
+AdsorpLab
+SciStat Chem
+
+but give SciReview Chem its own identity.
+
+Suggested palette:
+
+Deep navy:
+#0B3558
+
+Evidence teal:
+#159E9C
+
+Scientific blue:
+#2387C9
+
+Review purple accent:
+#6657C8
+
+Success green:
+#2E9D75
+
+Warning amber:
+#E7A63A
+
+Exclusion red:
+#C94C4C
+
+Background:
+#F7F9FC
+
+Cards:
+#FFFFFF
+
+Primary text:
+#102A43
+
+Secondary text:
+#627D98
+
+Borders:
+#D9E2EC
+
+Visual personality:
+
+research library
+evidence map
+scientific workflow
+systematic documentation
+
+Avoid:
+
+generic business dashboard appearance
+huge gradients
+neon
+excessive icons
+unnecessary animation
+"AI magic" branding
+
+============================================================
+34. DASHBOARD DESIGN
+============================================================
+
+Dashboard should show real project state.
+
+Before records are imported:
+
+Review status:
+Protocol started / not started
+
+Records:
+0
+
+Included:
+0
+
+Excluded:
+0
+
+Current phase:
+Protocol
+
+After import, cards may show:
+
+Records identified
+Duplicates removed
+Screened
+Included
+
+Main dashboard panels:
+
+Review progress
+PRISMA preview
+Screening progress
+Evidence extraction progress
+Recent decisions
+Workflow map
+
+Workflow:
+
+Question
+→ Search
+→ Import
+→ Deduplicate
+→ Screen
+→ Extract
+→ Assess
+→ Synthesize
+→ Report
+
+Never display fake production numbers.
+
+============================================================
+35. SCREENING UI DESIGN
+============================================================
+
+Make screening fast and visually clear.
+
+Large central card:
+
+TITLE
+
+Authors · Year · Journal
+
+Abstract
+
+Buttons:
+
+INCLUDE
+EXCLUDE
+UNCERTAIN
+
+Keyboard shortcuts if practical.
+
+Side panel:
+
+Protocol criteria
+Exclusion reasons
+Notes
+
+Progress:
+
+Record 18 of 243
+
+Show current screening counts.
+
+============================================================
+36. DEDUPLICATION UI
+============================================================
+
+Use a side-by-side comparison.
+
+LEFT RECORD
+RIGHT RECORD
+
+Highlight matching:
+
+DOI
+Title
+Year
+Author
+
+Show:
+
+Similarity score
+
+Suggested status:
+
+Possible duplicate
+
+Buttons:
+
+Keep left
+Keep right
+Merge
+Keep both
+
+Never auto-delete fuzzy matches.
+
+============================================================
+37. PRISMA DESIGN
+============================================================
+
+Create a clean professional PRISMA-style flow chart.
+
+Boxes should show counts derived from project state.
+
+Example:
+
+Records identified
+↓
+Duplicates removed
+↓
+Records screened
+↓
+Records excluded
+↓
+Full texts assessed
+↓
+Full texts excluded with reasons
+↓
+Studies included
+
+Use restrained scientific design.
+
+The PRISMA figure should be one of the flagship portfolio screenshots.
+
+============================================================
+38. RESPONSIBLE AUTOMATION
+============================================================
+
+No LLM is required.
+
+The MVP should automate:
+
+- parsing
+- matching
+- counting
+- filtering
+- data organization
+- visualization
+- exporting
+- workflow tracking
+
+It should NOT automate:
+
+- scientific relevance judgment
+- final quality judgment
+- scientific conclusion generation
+- causal interpretation
+- citation invention
+
+============================================================
+39. META-ANALYSIS
+============================================================
+
+Do NOT implement full meta-analysis in MVP.
+
+Only create a future roadmap entry for:
+
+effect-size extraction
+fixed-effect models
+random-effects models
+forest plots
+heterogeneity
+I²
+publication-bias diagnostics
+
+We will learn this separately before implementing it.
+
+============================================================
+40. OUT OF SCOPE FOR MVP
+============================================================
+
+Do NOT build:
+
+- automatic web scraping
+- publisher bypass
+- Sci-Hub access
+- paywall bypass
+- automatic AI review writing
+- AI citation generation
+- embeddings database
+- vector database
+- LLM screening
+- full meta-analysis
+- institutional collaboration
+- authentication
+- billing
+- Stripe
+- cloud storage
+- mobile app
+
+Keep MVP focused.
+
+============================================================
+41. README
+============================================================
+
+Create a high-quality GitHub README.
+
+Include:
+
+What SciReview Chem is
+Who it is for
+Main workflow
+Features
+Screenshots
+Installation
+Running locally
+Accepted import formats
+Deduplication methodology
+Screening methodology
+Evidence extraction
+PRISMA
+Responsible automation
+Testing
+Limitations
+Zero-cost operation
+Roadmap
+
+Add:
+
+"Scientific Integrity Principles"
+
+with:
+
+Human-controlled inclusion decisions
+No fabricated citations
+Traceable exclusions
+Preserved raw data
+Reproducible workflow
+
+============================================================
+42. PORTFOLIO POSITIONING
+============================================================
+
+The project should demonstrate that the developer can handle:
+
+- scientific literature workflows
+- systematic review methodology
+- evidence synthesis
+- research data management
+- scientific Python
+- scientific reporting
+- reproducibility
+- scientific quality control
+
+Portfolio title:
+
+SciReview Chem —
+Systematic Literature Review & Evidence Synthesis Workbench
+
+Suggested description:
+
+"A local scientific research application for reproducible literature
+searching, deduplication, screening, evidence extraction, PRISMA tracking,
+quality assessment, and structured evidence synthesis."
+
+============================================================
+43. MVP ACCEPTANCE CRITERIA
+============================================================
+
+The MVP is complete when I can:
+
+1. clone the repository
+
+2. install dependencies
+
+pip install -r requirements.txt
+
+3. run
+
+streamlit run app.py
+
+4. create a review protocol
+
+5. define inclusion/exclusion criteria
+
+6. save multiple search strategies
+
+7. import RIS, BibTeX, CSV, or XLSX references
+
+8. detect duplicates
+
+9. manually confirm possible duplicates
+
+10. screen titles/abstracts
+
+11. record full-text decisions
+
+12. require exclusion reasons at full-text stage
+
+13. create a customizable extraction table
+
+14. perform quality-domain assessments
+
+15. generate an evidence table
+
+16. produce PRISMA counts automatically
+
+17. generate a PRISMA figure
+
+18. export CSV/Excel results
+
+19. generate a professional PDF workflow report
+
+20. save and reopen the review project locally
+
+21. run pytest successfully
+
+22. demonstrate the complete workflow using synthetic data
+
+============================================================
+44. DEVELOPMENT ORDER
+============================================================
+
+Before coding:
+
+1. Review this full specification.
+2. Identify methodological risks.
+3. Propose architecture.
+4. Define record schema.
+5. Define review-project schema.
+6. Define screening-decision schema.
+7. Define extraction schema.
+8. Define deduplication strategy.
+9. Define PRISMA reconciliation logic.
+10. Then begin implementation.
+
+Recommended order:
+
+PHASE 1
+Repository, data models, project persistence
+
+PHASE 2
+Review protocol
+
+PHASE 3
+Search strategy manager
+
+PHASE 4
+Reference import
+
+PHASE 5
+Deduplication engine
+
+PHASE 6
+Title/abstract screening
+
+PHASE 7
+Full-text screening
+
+PHASE 8
+Data extraction
+
+PHASE 9
+Quality assessment
+
+PHASE 10
+Evidence table
+
+PHASE 11
+PRISMA engine
+
+PHASE 12
+Visualizations
+
+PHASE 13
+Excel export
+
+PHASE 14
+PDF report
+
+PHASE 15
+Testing
+
+PHASE 16
+Synthetic case study
+
+PHASE 17
+UI polish
+
+After every major phase:
+
+run tests
+fix failures
+keep the app runnable
+
+Do not leave placeholder features presented as finished.
+
+============================================================
+45. VALIDATION / AUDIT BEFORE RELEASE
+============================================================
+
+Before declaring v1.0 complete, perform four audits.
+
+SOFTWARE ENGINEER AUDIT
+
+Check:
+
+modularity
+typing
+error handling
+session-state safety
+serialization
+test coverage
+file handling
+
+SYSTEMATIC REVIEW AUDIT
+
+Check:
+
+screening traceability
+deduplication transparency
+PRISMA reconciliation
+exclusion reasons
+protocol preservation
+
+SCIENTIFIC INTEGRITY AUDIT
+
+Check:
+
+no fabricated references
+no silent exclusions
+no unsupported conclusions
+no invented metadata
+raw data preserved
+
+FREELANCE CLIENT AUDIT
+
+Ask:
+
+Would a Kolabtree client trust this workflow?
+Can the output be handed to a researcher?
+Does the report explain what happened?
+Can every decision be traced?
+
+Fix important issues found in the audits.
+
+============================================================
+46. BUSINESS GOAL
+============================================================
+
+The immediate business objective is:
+
+ZERO-COST DEVELOPMENT
+        ↓
+STRONG SCIENTIFIC PORTFOLIO
+        ↓
+KOLABTREE / UPWORK PROPOSALS
+        ↓
+FIRST PAID EVIDENCE-REVIEW PROJECT
+        ↓
+USE REAL CLIENT FEEDBACK
+        ↓
+THEN EXPAND FEATURES
+
+Do not build a huge SaaS before validating freelance demand.
+
+The product should make me more credible for projects involving:
+
+systematic literature review
+structured literature search
+scientific evidence synthesis
+gap analysis
+technology scouting
+scientific research
+materials science
+environmental chemistry
+toxicology
+chemical regulatory research
+
+============================================================
+47. FINAL DELIVERABLES
+============================================================
+
+At completion provide:
+
+- complete repository
+- functioning Streamlit app
+- requirements.txt
+- README.md
+- LICENSE
+- automated tests
+- synthetic sample dataset
+- sample RIS/BibTeX files
+- demo review project
+- PRISMA figure
+- Excel export
+- PDF report export
+- portfolio case-study PDF
+- architecture summary
+- validation summary
+- known limitations
+- future roadmap
+- deployment instructions
+
+============================================================
+48. FINAL INSTRUCTION TO CODEX
+============================================================
+
+Build this as credible scientific research software.
+
+Do not optimize for maximum feature count.
+
+Optimize for:
+
+methodological correctness
+traceability
+reproducibility
+scientific integrity
+clean UX
+portfolio credibility
+zero operating cost
+
+If you encounter ambiguity in systematic-review methodology:
+
+do not invent a convenient solution.
+
+Document the issue, choose a conservative transparent implementation,
+and explain the decision.
+
+Human judgment remains responsible for:
+
+inclusion
+exclusion
+quality assessment
+scientific interpretation
+
+Software handles:
+
+organization
+workflow
+calculation
+tracking
+visualization
+reporting
+
+Start by presenting:
+
+1. the proposed architecture,
+2. the data schemas,
+3. the deduplication strategy,
+4. the PRISMA state model,
+5. the methodological risks,
+
+and only then begin implementation.
+
+Build sequentially and autonomously.
