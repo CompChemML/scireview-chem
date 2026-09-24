@@ -15,10 +15,13 @@ from openpyxl.utils import get_column_letter
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "case_study_na2nbof5"
-FIG = OUT / "visual_assets"
-OUT.mkdir(exist_ok=True)
-FIG.mkdir(exist_ok=True)
+OUT = ROOT / "case_studies" / "na2nbof5-mlip"
+PROTOCOL = OUT / "protocol"
+EVIDENCE_DIR = OUT / "evidence"
+EXPORTS = OUT / "exports"
+FIG = OUT / "figures"
+for directory in (OUT, PROTOCOL, EVIDENCE_DIR, EXPORTS, FIG):
+    directory.mkdir(parents=True, exist_ok=True)
 DATE = "2026-09-23"
 
 NAVY, TEAL, PALE, INK, AMBER, RED, WHITE = "16324F", "2A7F83", "E8F2F2", "1F2933", "C58A19", "A64040", "FFFFFF"
@@ -105,11 +108,22 @@ def md_sources(keys):
 
 
 def write_md(name, text):
-    (OUT / name).write_text(dedent(text).strip() + "\n", encoding="utf-8")
+    destinations = {
+        "01_executive_summary.md": EVIDENCE_DIR / "executive_summary.md",
+        "02_review_protocol.md": PROTOCOL / "review_protocol.md",
+        "03_search_strategy.md": PROTOCOL / "search_strategy.md",
+        "07_gap_analysis.md": EVIDENCE_DIR / "gap_analysis.md",
+        "08_professor_overlap_analysis.md": EVIDENCE_DIR / "professor_overlap_analysis.md",
+        "09_primary_paper_audit.md": EVIDENCE_DIR / "primary_paper_audit.md",
+        "10_final_proposal_concept.md": EVIDENCE_DIR / "final_proposal_concept.md",
+        "11_case_study_full.md": OUT / "case_study_full.md",
+        "README.md": OUT / "README.md",
+    }
+    destinations[name].write_text(dedent(text).strip() + "\n", encoding="utf-8")
 
 
 def csv_write(name, headers, rows):
-    with (OUT / name).open("w", newline="", encoding="utf-8-sig") as f:
+    with (EXPORTS / name).open("w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
         writer.writerows(rows)
@@ -145,7 +159,7 @@ def workbook(name, sheets):
         for row in rows:
             ws.append(row)
         style_sheet(ws)
-    wb.save(OUT / name)
+    wb.save(EXPORTS / name)
 
 
 def fig_start(title, subtitle="", figsize=(11.7, 8.3)):
@@ -457,15 +471,15 @@ This case tested whether SciReview Chem could support a real, adversarial propos
 
 Twelve documented query families were run across six source classes. Fourteen unique audit records were assembled; one preprint/journal duplicate was logged, two records were excluded at title/abstract, eleven were assessed for evidence relevance, one generic review was excluded at full text and ten sources were retained. Because the search interface did not expose reproducible database-total counts, the log reports captured and screened counts rather than invented global hit counts.
 
-![Review workflow](visual_assets/review_workflow.png)
+![Review workflow](figures/review_workflow.png)
 
-![PRISMA-style flow](visual_assets/prisma_flow.png)
+![PRISMA-style flow](figures/prisma_flow.png)
 
 ### Evidence result
 
 The exact-material literature located comprises a hierarchical screening study and the subsequent AIMD/electrochemical paper. The public record did not reveal a dedicated Na2NbOF5 MLIP, long-time convergence analysis, explicit Haven/collective treatment, or classical potential. Contextual studies show that MLMD, correlation analysis and universal MLIP screening are established methods. Therefore the method is not the contribution; the Na2NbOF5-specific convergence and correlation question may be.
 
-![Evidence map](visual_assets/evidence_map.png)
+![Evidence map](figures/evidence_map.png)
 
 ### Primary-paper integrity boundary
 
@@ -475,9 +489,9 @@ The user specified exact AIMD and experimental details, but no PDF was present. 
 
 Three candidate gaps were supported, two partly supported, and one not supported. The surviving question integrates trajectory/cell/configuration convergence with collective transport. Defects/vacancies were rejected as a primary gap because the accessible evidence does not yet justify a distinct, bounded claim.
 
-![Candidate gap matrix](visual_assets/candidate_gap_matrix.png)
+![Candidate gap matrix](figures/candidate_gap_matrix.png)
 
-![Existing knowledge and contribution](visual_assets/knowledge_vs_contribution.png)
+![Existing knowledge and contribution](figures/knowledge_vs_contribution.png)
 
 ### Supervisor overlap
 
@@ -495,18 +509,18 @@ This is a focused scoping review based on captured web/publisher records, not an
 
 The defensible project is a validated MLMD convergence and transport-correlation study, not a generic application of MLIP to a new material. The workflow is AIMD reference → validated potential → convergence ladder → tracer and collective transport analysis.
 
-![AIMD to MLIP workflow](visual_assets/aimd_to_mlip_workflow.png)
+![AIMD to MLIP workflow](figures/aimd_to_mlip_workflow.png)
 
 ### Source registry
 {md_sources(list(SOURCES))}''')
 
     payload={"metadata":{"title":"SciReview Chem real-world validation: Na2NbOF5","review_date":DATE,"review_type":"focused scoping review / gap analysis","primary_pdf_supplied":False},"counts":{"source_classes":6,"search_families":12,"raw_records":14,"duplicates":1,"title_abstract_screened":13,"title_abstract_excluded":2,"full_text_assessed":11,"full_text_excluded":1,"included_evidence_sources":10,"supported_gaps":3,"partially_supported_gaps":2,"not_supported_gaps":1},"searches":[dict(zip(search_headers,row)) for row in search_rows],"records":[dict(zip(screen_headers,row)) for row in RECORDS],"duplicates":[dict(zip(["decision_id","record_a","record_b","classification","evidence","resolution","date"],row)) for row in DEDUP],"evidence":[dict(zip(EVIDENCE_HEADERS,row)) for row in EVIDENCE],"gaps":[dict(zip(["gap","candidate_gap","status","evidence","closest_comparator","distinctness","remaining_uncertainty"],row)) for row in GAPS],"surviving_gap":"Whether Na2NbOF5 transport predictions converge with trajectory length and cell size across multiple O/F disorder realizations, and whether collective charge transport differs from tracer/Nernst–Einstein transport across temperature.","professor_overlap":{"classification":"B — Adjacent overlap","direct_overlap_located":False,"limitation":"Unpublished work cannot be assessed from public sources."},"app_validation":{"bugs_discovered":3,"bugs_fixed":3,"fixes":["search screened/retained counts","mandatory title-exclusion reasons","MLIP ion-transport extraction template"]},"limitations":["Primary PDF not supplied","Search interface did not expose total hit counts","Focused public-web search is not exhaustive","Unpublished competing work cannot be ruled out"],"sources":{k:{"label":v[0],"url":v[1]} for k,v in SOURCES.items()}}
-    (OUT/"12_case_study_data.json").write_text(json.dumps(payload,indent=2,ensure_ascii=False),encoding="utf-8")
+    (EXPORTS/"12_case_study_data.json").write_text(json.dumps(payload,indent=2,ensure_ascii=False),encoding="utf-8")
     visuals()
 
     # Structural workbook verification.
     for name, expected in {"04_search_log.xlsx":{"Search Log","Source Registry"},"05_screening_log.xlsx":{"Records","Deduplication","Reconciliation"},"06_evidence_table.xlsx":{"Evidence","Gap Matrix","Field Guide"}}.items():
-        wb=load_workbook(OUT/name,read_only=False,data_only=False)
+        wb=load_workbook(EXPORTS/name,read_only=False,data_only=False)
         assert expected.issubset(wb.sheetnames)
         for ws in wb.worksheets:
             assert ws.freeze_panes == "A2"
@@ -517,3 +531,5 @@ The defensible project is a validated MLMD convergence and transport-correlation
 
 if __name__ == "__main__":
     main()
+
+

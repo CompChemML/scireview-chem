@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-23T21:52:29.548434</dc:date>
+    <dc:date>2026-09-23T22:10:27.867936</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 479.87064 92.788272 479.87064 95.549184
 L 479.87064 118.556784 
 Q 479.87064 121.317696 483.7878 121.317696 
 z
-" clip-path="url(#p6908bcc174)" style="fill: #2a7f83"/>
+" clip-path="url(#pfd8c4c12ee)" style="fill: #2a7f83"/>
    </g>
    <g id="patch_3">
     <path d="M 483.7878 171.934416 
@@ -53,7 +53,7 @@ Q 479.87064 143.404992 479.87064 146.165904
 L 479.87064 169.173504 
 Q 479.87064 171.934416 483.7878 171.934416 
 z
-" clip-path="url(#p6908bcc174)" style="fill: #c58a19"/>
+" clip-path="url(#pfd8c4c12ee)" style="fill: #c58a19"/>
    </g>
    <g id="patch_4">
     <path d="M 483.7878 222.551136 
@@ -66,7 +66,7 @@ Q 479.87064 194.021712 479.87064 196.782624
 L 479.87064 219.790224 
 Q 479.87064 222.551136 483.7878 222.551136 
 z
-" clip-path="url(#p6908bcc174)" style="fill: #c58a19"/>
+" clip-path="url(#pfd8c4c12ee)" style="fill: #c58a19"/>
    </g>
    <g id="patch_5">
     <path d="M 483.7878 273.167856 
@@ -79,7 +79,7 @@ Q 479.87064 244.638432 479.87064 247.399344
 L 479.87064 270.406944 
 Q 479.87064 273.167856 483.7878 273.167856 
 z
-" clip-path="url(#p6908bcc174)" style="fill: #2a7f83"/>
+" clip-path="url(#pfd8c4c12ee)" style="fill: #2a7f83"/>
    </g>
    <g id="patch_6">
     <path d="M 483.7878 323.784576 
@@ -92,7 +92,7 @@ Q 479.87064 295.255152 479.87064 298.016064
 L 479.87064 321.023664 
 Q 479.87064 323.784576 483.7878 323.784576 
 z
-" clip-path="url(#p6908bcc174)" style="fill: #2a7f83"/>
+" clip-path="url(#pfd8c4c12ee)" style="fill: #2a7f83"/>
    </g>
    <g id="patch_7">
     <path d="M 483.7878 374.401296 
@@ -105,7 +105,7 @@ Q 479.87064 345.871872 479.87064 348.632784
 L 479.87064 371.640384 
 Q 479.87064 374.401296 483.7878 374.401296 
 z
-" clip-path="url(#p6908bcc174)" style="fill: #a64040"/>
+" clip-path="url(#pfd8c4c12ee)" style="fill: #a64040"/>
    </g>
    <g id="text_1">
     <!-- Candidate-gap matrix -->
@@ -1877,7 +1877,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p6908bcc174">
+  <clipPath id="pfd8c4c12ee">
    <rect x="7.2" y="7.2" width="652.86" height="460.152"/>
   </clipPath>
  </defs>

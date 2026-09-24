@@ -28,6 +28,11 @@ Run tests with `pytest`.
 
 The architecture and conservative methodological choices are documented in [docs/architecture.md](docs/architecture.md).
 
+## Real-world case studies
+
+- [Na2NbOF5 MLIP proposal validation](case_studies/na2nbof5-mlip/README.md) — focused scoping review, evidence audit, gap analysis, figures, and machine-readable exports.
+
 ## Status and roadmap
 
 The implementation follows the specification's sequential phases. Next are the protocol and search-strategy pages, followed by reference import, reviewer-confirmed deduplication, screening, extraction, quality assessment, evidence tables, visualization, and exports.
+

@@ -10,15 +10,15 @@ This case tested whether SciReview Chem could support a real, adversarial propos
 
 Twelve documented query families were run across six source classes. Fourteen unique audit records were assembled; one preprint/journal duplicate was logged, two records were excluded at title/abstract, eleven were assessed for evidence relevance, one generic review was excluded at full text and ten sources were retained. Because the search interface did not expose reproducible database-total counts, the log reports captured and screened counts rather than invented global hit counts.
 
-![Review workflow](visual_assets/review_workflow.png)
+![Review workflow](figures/review_workflow.png)
 
-![PRISMA-style flow](visual_assets/prisma_flow.png)
+![PRISMA-style flow](figures/prisma_flow.png)
 
 ### Evidence result
 
 The exact-material literature located comprises a hierarchical screening study and the subsequent AIMD/electrochemical paper. The public record did not reveal a dedicated Na2NbOF5 MLIP, long-time convergence analysis, explicit Haven/collective treatment, or classical potential. Contextual studies show that MLMD, correlation analysis and universal MLIP screening are established methods. Therefore the method is not the contribution; the Na2NbOF5-specific convergence and correlation question may be.
 
-![Evidence map](visual_assets/evidence_map.png)
+![Evidence map](figures/evidence_map.png)
 
 ### Primary-paper integrity boundary
 
@@ -28,9 +28,9 @@ The user specified exact AIMD and experimental details, but no PDF was present. 
 
 Three candidate gaps were supported, two partly supported, and one not supported. The surviving question integrates trajectory/cell/configuration convergence with collective transport. Defects/vacancies were rejected as a primary gap because the accessible evidence does not yet justify a distinct, bounded claim.
 
-![Candidate gap matrix](visual_assets/candidate_gap_matrix.png)
+![Candidate gap matrix](figures/candidate_gap_matrix.png)
 
-![Existing knowledge and contribution](visual_assets/knowledge_vs_contribution.png)
+![Existing knowledge and contribution](figures/knowledge_vs_contribution.png)
 
 ### Supervisor overlap
 
@@ -48,7 +48,7 @@ This is a focused scoping review based on captured web/publisher records, not an
 
 The defensible project is a validated MLMD convergence and transport-correlation study, not a generic application of MLIP to a new material. The workflow is AIMD reference → validated potential → convergence ladder → tracer and collective transport analysis.
 
-![AIMD to MLIP workflow](visual_assets/aimd_to_mlip_workflow.png)
+![AIMD to MLIP workflow](figures/aimd_to_mlip_workflow.png)
 
 ### Source registry
 - [Morkhova et al. (2026), A new sodium-ion conductor Na2NbOF5](https://doi.org/10.1016/j.jpcs.2026.113889)

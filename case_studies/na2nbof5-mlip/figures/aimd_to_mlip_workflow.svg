@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-23T21:52:28.967790</dc:date>
+    <dc:date>2026-09-23T22:10:27.334320</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 32.00868 176.535936 32.00868 182.05776
 L 32.00868 274.08816 
 Q 32.00868 279.609984 39.843 279.609984 
 z
-" clip-path="url(#p4229f8d615)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
+" clip-path="url(#pca33de9aa8)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 193.2651 279.609984 
@@ -53,7 +53,7 @@ Q 185.43078 176.535936 185.43078 182.05776
 L 185.43078 274.08816 
 Q 185.43078 279.609984 193.2651 279.609984 
 z
-" clip-path="url(#p4229f8d615)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
+" clip-path="url(#pca33de9aa8)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 346.6872 279.609984 
@@ -66,7 +66,7 @@ Q 338.85288 176.535936 338.85288 182.05776
 L 338.85288 274.08816 
 Q 338.85288 279.609984 346.6872 279.609984 
 z
-" clip-path="url(#p4229f8d615)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
+" clip-path="url(#pca33de9aa8)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 500.1093 279.609984 
@@ -79,7 +79,7 @@ Q 492.27498 176.535936 492.27498 182.05776
 L 492.27498 274.08816 
 Q 492.27498 279.609984 500.1093 279.609984 
 z
-" clip-path="url(#p4229f8d615)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
+" clip-path="url(#pca33de9aa8)" style="fill: #ffffff; stroke: #2a7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- AIMD → MLIP → long-timescale MLMD -->
@@ -2151,7 +2151,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p4229f8d615">
+  <clipPath id="pca33de9aa8">
    <rect x="7.2" y="7.2" width="652.86" height="460.152"/>
   </clipPath>
  </defs>
